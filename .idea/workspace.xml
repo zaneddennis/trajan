@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801ea4a3-7046-4062-ac98-957c5bee213b" name="Default" comment="Added everything">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/trajan/templates/trajan/TAMUHack" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/trajan/templates/trajan/index.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trajan/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -119,27 +120,6 @@
               <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
               <item name="trajan" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="TAMUHack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trajan/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
