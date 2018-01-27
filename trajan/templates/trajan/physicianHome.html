@@ -14,33 +14,41 @@
      </ul>
    </nav>
 
-   <h1> Physician Home</h1>
-  <h2> Potato</h2>
-   <ul>
-     <div id ="board"class="grid-container">
+   <h1>Physician Home</h1>
+   <div id ="board" class="grid-container">
           <script>
-          for(x=0; x<9;x++)
+          var time = 7;
+          for(x=0; x<40;x++)
           {
             var board = document.createElement('div');
-            board.className = "grid-container";
-            board.innerText = "Working?"
+            board.className = "grid-item";
+
+
+            //Set the left hand column to the time
+            if(x%2==0)
+            {
+              time = time+1;
+
+              if(time>12)
+              {
+                time = 1;
+              }
+              board.innerText = time+':00'
+            }
+            //Set the middle column to patient name
+            if(x%2==1)
+            {
+              //get the patient name..
+              board.innerText = "Yo Mamma"
+            }
+
+
             document.getElementById('board').appendChild(board);
           }
           </script>
 
      </div>
-     <div class="grid-container">
-         <div class="grid-item">1</div>
-         <div class="grid-item">2</div>
-         <div class="grid-item">3</div>
-         <div class="grid-item">4</div>
-         <div class="grid-item">5</div>
-         <div class="grid-item">6</div>
-         <div class="grid-item">7</div>
-         <div class="grid-item">8</div>
-         <div class="grid-item">9</div>
-     </div>
-  </ul>
+
 
  </body>
 </html>
