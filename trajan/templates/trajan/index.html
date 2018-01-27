@@ -6,7 +6,16 @@
 </head>
 <body>
     <h1>Physician Login</h1>
-    <p>Password:</p>
-    <a href="/trajan/physician/1">LOGIN</a>
+
+    <form method="post">
+        {% csrf_token %}
+        Physician ID: <input type="text" name="physId"/>
+        <br>
+        Password: <input type="password" name="physPass"/>
+
+        <br>
+        <input type="submit" value= "Log in"/>
+    </form>
+
 </body>
 </html>
