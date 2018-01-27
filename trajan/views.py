@@ -5,8 +5,6 @@ def index(request):
     context = {}
     return render(request, 'trajan/index.html', context)
 
-"""def physicianHome(request, physician_id):
-    return HttpResponse('Physician Home Screen')"""
 def physicianHome(request, physician_id):
     context = {}
     return render(request, 'trajan/TAMUHack/physicianHome.html', context)
