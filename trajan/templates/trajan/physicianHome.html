@@ -14,22 +14,22 @@
      </ul>
    </nav>
 
-   <h1> Physician Home </h1>
+   <h1> Physician Home</h1>
+  <h2> Potato</h2>
    <ul>
-     <div class="grid-container">
-       <div id ="board">
+     <div id ="board"class="grid-container">
           <script>
           for(x=0; x<9;x++)
           {
             var board = document.createElement('div');
-            board.className = "blah";
+            board.className = "grid-container";
+            board.innerText = "Working?"
             document.getElementById('board').appendChild(board);
           }
           </script>
-       </div>
-     </div>
 
-       <div class="grid-container">
+     </div>
+     <div class="grid-container">
          <div class="grid-item">1</div>
          <div class="grid-item">2</div>
          <div class="grid-item">3</div>
@@ -39,7 +39,7 @@
          <div class="grid-item">7</div>
          <div class="grid-item">8</div>
          <div class="grid-item">9</div>
-       </div>
+     </div>
   </ul>
 
  </body>
