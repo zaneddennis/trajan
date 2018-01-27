@@ -1,0 +1,15 @@
+.nav
+{
+  list-style-type: none;
+  padding: 3%;
+
+}
+nav{
+  background-color: black;
+}
+.nav li{
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 1%;
+}
