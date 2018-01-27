@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+ <head>
+   <title> Physician Home </title>
+     {% load static %}
+   <link rel="stylesheet" href="{% static 'trajan/header.css' %}" />
+   <link rel="stylesheet" href="{% static 'trajan/physicianHome.css' %}" />
+ </head>
+
+ <body>
+   <nav>
+     <ul class="nav">
+       <li><a href="#">Physician Home</a></li>
+     </ul>
+   </nav>
+
+   <h1> Physician Home </h1>
+   <ul>
+     <div class="grid-container">
+       <div id ="board">
+          <script>
+          for(x=0; x<9;x++)
+          {
+            var board = document.createElement('div');
+            board.className = "blah";
+            document.getElementById('board').appendChild(board);
+          }
+          </script>
+       </div>
+     </div>
+
+       <div class="grid-container">
+         <div class="grid-item">1</div>
+         <div class="grid-item">2</div>
+         <div class="grid-item">3</div>
+         <div class="grid-item">4</div>
+         <div class="grid-item">5</div>
+         <div class="grid-item">6</div>
+         <div class="grid-item">7</div>
+         <div class="grid-item">8</div>
+         <div class="grid-item">9</div>
+       </div>
+  </ul>
+
+ </body>
+</html>

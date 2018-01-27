@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Patients</title>
+      {% load static %}
+    <link rel="stylesheet" href="{% static 'trajan/patient.css' %}"/>
+    <link rel="stylesheet" href="{% static 'trajan/header.css' %}"/>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav">
+        <li><a href="physicianHome.html">Physician Home</a></li>
+        <li><a href="#">Patients</a></li>
+      </ul>
+
+    </nav>
+    <div class="layout">
+     <ul class="pageLayout">
+        <li>
+          <ul class="topPage">
+             <li> <img src='download.png'></img> </li>
+             <li>
+                <ul class="HIPPAinfo">
+                   <li>Name:    </li>
+                   <li>Age:     </li>
+                   <li>Birthplace:      </li>
+                   <li>PCP:     </li>
+                </ul>
+             </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="Views">
+            <li class="dropin" id="historyV">Detailed History</li>
+            <li class="dropin" id="LastVistV">Last Visit</li>
+            <li class="dropin" id="NextVistV">Next Visit </li>
+          </ul>
+        </li>
+     </ul>
+   </div>
+  </body>
+</html>
