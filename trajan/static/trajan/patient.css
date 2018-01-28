@@ -1,31 +1,31 @@
 body{
   height: 100%;
-  background-color: blue;
+  background-color: white;
 }
 .layout{
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: white;
 }
 .pageLayout{
   height: 90%;
   list-style-type: none;
-  background-color: red;
+  background-color: white;
 
 }
 .topPage{
   list-style-type: none;
-  background-color: yellow;
+  background-color: blue;
   width: 90%;
   display: inline-block;
 }
-.topPage li{
+/*.topPage li{
   display: inline-block;
 
-}
+}*/
 .HIPPAinfo{
-  list-style-type: none;
+  color: white;
 }
 
 .Views{
@@ -33,7 +33,7 @@ body{
   display: inline-block;
   height: 60%;
   width: 90%;
-  background-color: green;
+  background-color: white;
 
 }
 .Views li{
@@ -43,19 +43,24 @@ body{
 .dropin{
   margin-left: 2%;
   height: 96%;
-  width: 27%;
+  width: 25%;
   text-align: center;
   padding-top: 2%;
   color: white;
 
 }
 #historyV{
-  background-color: black;
+  background-color: blue;
   padding-left: 2%;
   padding-right: 2%;
 }
-#NextVistV{
-  background-color: black;
+#LastVisitV{
+  background-color: blue;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#NextVisitV{
+  background-color: blue;
   padding-left: 2%;
   padding-right: 2%;
 }
