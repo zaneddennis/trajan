@@ -11,16 +11,19 @@ def physicianHome(request, physician_id):
     return render(request, 'trajan/physicianHome.html', context)
 
 def patientOverview(request, patient_id):
-    return HttpResponse('Patient Overview Screen: %s' % patient_id)
+    context = {}
+    return render(request, 'trajan/patientOverview.html', context)
 
 def newPatientVisit(request, patient_id):
-    return HttpResponse('New Patient Visit: %s' % patient_id)
+    context = {}
+    return render(request, 'trajan/newPatientVisit.html', context)
 
 def ExtractingData(request, patient_id):
     return HttpResponse('Extracting Data...')
 
 def patientVisit(request, patient_id):
-    return HttpResponse('Patient Visit: %s' % patient_id)
+    context = {}
+    return render(request, 'trajan/visit.html', context)
 
 
 def physicianLogin(request, physician_id):
