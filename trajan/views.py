@@ -17,7 +17,7 @@ def patientOverview(request, patient_id):
 
 def newPatientVisit(request, patient_id):
     context = {}
-    return render(request, 'trajan/newPatientVisit.html', context)
+    return render(request, 'trajan/newVisit.html', context)
 
 def extractingData(request, patient_id):
     extractFields("Hello World")
