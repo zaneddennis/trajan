@@ -1,8 +1,12 @@
 from django.urls import path
 from . import views
 
+app_name='trajan'
 urlpatterns = [
     path('', views.index, name='index'),
+
+    path('physicianLogin/<int:physician_id>/',
+         views.physicianLogin, name='physicianLogin'),
 
     path('physician/<int:physician_id>/',
          views.physicianHome, name='physicianHome'),

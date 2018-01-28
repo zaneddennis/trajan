@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
 
 def index(request):
     context = {}
@@ -20,4 +21,8 @@ def ExtractingData(request, patient_id):
 
 def patientVisit(request, patient_id):
     return HttpResponse('Patient Visit: %s' % patient_id)
+
+
+def physicianLogin(request, physician_id):
+    return HttpResponseRedirect(reverse('trajan:physicianHome', args=(1,)))
 
