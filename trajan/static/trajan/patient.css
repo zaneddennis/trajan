@@ -16,7 +16,7 @@ body{
 }
 .topPage{
   list-style-type: none;
-  background-color: blue;
+  background-color: #000066;
   width: 90%;
   display: inline-block;
 }
@@ -50,17 +50,17 @@ body{
 
 }
 #historyV{
-  background-color: blue;
+  background-color: #000066;
   padding-left: 2%;
   padding-right: 2%;
 }
 #LastVisitV{
-  background-color: blue;
+  background-color: #000066;
   padding-left: 2%;
   padding-right: 2%;
 }
 #NextVisitV{
-  background-color: blue;
+  background-color: #000066;
   padding-left: 2%;
   padding-right: 2%;
 }
