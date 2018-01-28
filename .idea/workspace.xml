@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801ea4a3-7046-4062-ac98-957c5bee213b" name="Default" comment="Adjusting patientOverview.html and patient.css">
+    <list default="true" id="801ea4a3-7046-4062-ac98-957c5bee213b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/trajan/extraction.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/trajan/static/trajan/patient.css" afterPath="$PROJECT_DIR$/trajan/static/trajan/patient.css" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/trajan/models.py" afterPath="$PROJECT_DIR$/trajan/models.py" />
+      <change beforePath="$PROJECT_DIR$/trajan/urls.py" afterPath="$PROJECT_DIR$/trajan/urls.py" />
+      <change beforePath="$PROJECT_DIR$/trajan/views.py" afterPath="$PROJECT_DIR$/trajan/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trajan/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trajan/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -26,14 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trajan/urls.py">
+      <file leaf-file-name="extraction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trajan/extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,18 +53,30 @@
       <file leaf-file-name="patientOverview.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/patientOverview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="324">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trajan/static/trajan/patient.css">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trajan/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newPatientVisit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/newPatientVisit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -75,19 +99,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tamuhack/settings.py" />
-        <option value="$PROJECT_DIR$/trajan/models.py" />
         <option value="$PROJECT_DIR$/trajan/admin.py" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/TAMUHack/patientOverview.html" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/TAMUHack/physicianHome.html" />
         <option value="$PROJECT_DIR$/tamuhack/urls.py" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/physicianHome.html" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/index.html" />
-        <option value="$PROJECT_DIR$/trajan/urls.py" />
-        <option value="$PROJECT_DIR$/trajan/views.py" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/newPatientVisit.html" />
         <option value="$PROJECT_DIR$/trajan/templates/trajan/visit.html" />
-        <option value="$PROJECT_DIR$/trajan/templates/trajan/patientOverview.html" />
         <option value="$PROJECT_DIR$/trajan/static/trajan/patient.css" />
+        <option value="$PROJECT_DIR$/trajan/models.py" />
+        <option value="$PROJECT_DIR$/trajan/templates/trajan/patientOverview.html" />
+        <option value="$PROJECT_DIR$/trajan/views.py" />
+        <option value="$PROJECT_DIR$/trajan/urls.py" />
+        <option value="$PROJECT_DIR$/trajan/extraction.py" />
       </list>
     </option>
   </component>
@@ -130,32 +155,6 @@
             <path>
               <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamuhack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamuhack" type="462c0819:PsiDirectoryNode" />
-              <item name="trajan" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="trajan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517103177683</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changing colors on patient.css">
+      <created>1517103374191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1517103374191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +369,8 @@
     <MESSAGE value="Achieved communication between front and back end!!!" />
     <MESSAGE value="Routed new htmls and fixed load static errors" />
     <MESSAGE value="Adjusting patientOverview.html and patient.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusting patientOverview.html and patient.css" />
+    <MESSAGE value="Changing colors on patient.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing colors on patient.css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,6 +416,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="514" column="8" lean-forward="false" selection-start-line="514" selection-start-column="8" selection-end-line="514" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -427,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trajan/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -470,26 +471,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/newPatientVisit.html">
+    <entry file="file://$PROJECT_DIR$/trajan/static/trajan/patient.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="380">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trajan/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/visit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="162">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/patientOverview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/newPatientVisit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trajan/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -498,26 +523,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trajan/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trajan/templates/trajan/patientOverview.html">
+    <entry file="file://$PROJECT_DIR$/trajan/extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trajan/static/trajan/patient.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
+from .extraction import *
 
 def index(request):
     context = {}
@@ -18,7 +19,8 @@ def newPatientVisit(request, patient_id):
     context = {}
     return render(request, 'trajan/newPatientVisit.html', context)
 
-def ExtractingData(request, patient_id):
+def extractingData(request, patient_id):
+    extractFields("Hello World")
     return HttpResponse('Extracting Data...')
 
 def patientVisit(request, patient_id):
@@ -31,4 +33,3 @@ def physicianLogin(request, physician_id):
     id = request.POST['physId']
     print(id)
     return HttpResponseRedirect(reverse('trajan:physicianHome', args=(id,)))
-

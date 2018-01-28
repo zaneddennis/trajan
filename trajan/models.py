@@ -21,3 +21,6 @@ class Visit(models.Model):
     visit_aggravatingFactors = models.CharField(max_length=256)
     visit_alleviatingFactors = models.CharField(max_length=256)
 
+    def __str__(self):
+        return str(self.patient) + ' ' + str(self.visit_dateTime)
+

@@ -18,7 +18,7 @@ urlpatterns = [
          views.newPatientVisit, name='newPatientVisit'),
 
     path('patients/<int:patient_id>/extracting',
-         views.ExtractingData, name='extractingData'),
+         views.extractingData, name='extractingData'),
 
     path('patients/<int:patient_id>/visit',
          views.patientVisit, name='patientVisit')
