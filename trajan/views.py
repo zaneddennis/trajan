@@ -24,5 +24,8 @@ def patientVisit(request, patient_id):
 
 
 def physicianLogin(request, physician_id):
-    return HttpResponseRedirect(reverse('trajan:physicianHome', args=(1,)))
+    #print(request.POST['physId'])
+    id = request.POST['physId']
+    print(id)
+    return HttpResponseRedirect(reverse('trajan:physicianHome', args=(id,)))
 
