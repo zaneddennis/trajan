@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from .extraction import *
 
+
 def index(request):
     context = {}
     return render(request, 'trajan/index.html', context)
